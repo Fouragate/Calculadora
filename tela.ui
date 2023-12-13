@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>CalculadoraPython</string>
+   <string>Calculadora Simples</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -683,7 +683,7 @@ background-color: rgb(26, 26, 26);</string>
            <number>0</number>
           </property>
           <item>
-           <widget class="QPushButton" name="zero_Btt">
+           <widget class="QPushButton" name="mais_menosBtt">
             <property name="maximumSize">
              <size>
               <width>130</width>
@@ -705,12 +705,12 @@ font: 87 28pt &quot;Arial Black&quot;;
 background-color: rgb(26, 26, 26);</string>
             </property>
             <property name="text">
-             <string>+/-</string>
+             <string> </string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="mais_menosBtt">
+           <widget class="QPushButton" name="zero_Btt">
             <property name="maximumSize">
              <size>
               <width>130</width>

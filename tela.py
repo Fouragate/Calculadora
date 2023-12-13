@@ -319,20 +319,6 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_5.setSpacing(0)
         self.horizontalLayout_5.setObjectName("horizontalLayout_5")
-        self.zero_Btt = QtWidgets.QPushButton(self.frame_5)
-        self.zero_Btt.setMaximumSize(QtCore.QSize(130, 130))
-        font = QtGui.QFont()
-        font.setFamily("Arial Black")
-        font.setPointSize(28)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setWeight(10)
-        self.zero_Btt.setFont(font)
-        self.zero_Btt.setStyleSheet("color: rgb(255, 255, 255);\n"
-"font: 87 28pt \"Arial Black\";\n"
-"background-color: rgb(26, 26, 26);")
-        self.zero_Btt.setObjectName("zero_Btt")
-        self.horizontalLayout_5.addWidget(self.zero_Btt)
         self.mais_menosBtt = QtWidgets.QPushButton(self.frame_5)
         self.mais_menosBtt.setMaximumSize(QtCore.QSize(130, 130))
         font = QtGui.QFont()
@@ -347,6 +333,20 @@ class Ui_MainWindow(object):
 "background-color: rgb(26, 26, 26);")
         self.mais_menosBtt.setObjectName("mais_menosBtt")
         self.horizontalLayout_5.addWidget(self.mais_menosBtt)
+        self.zero_Btt = QtWidgets.QPushButton(self.frame_5)
+        self.zero_Btt.setMaximumSize(QtCore.QSize(130, 130))
+        font = QtGui.QFont()
+        font.setFamily("Arial Black")
+        font.setPointSize(28)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(10)
+        self.zero_Btt.setFont(font)
+        self.zero_Btt.setStyleSheet("color: rgb(255, 255, 255);\n"
+"font: 87 28pt \"Arial Black\";\n"
+"background-color: rgb(26, 26, 26);")
+        self.zero_Btt.setObjectName("zero_Btt")
+        self.horizontalLayout_5.addWidget(self.zero_Btt)
         self.ponto_Btt = QtWidgets.QPushButton(self.frame_5)
         self.ponto_Btt.setMaximumSize(QtCore.QSize(130, 130))
         font = QtGui.QFont()
@@ -385,7 +385,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "CalculadoraPython"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Calculadora Simples"))
         self.outputLabel.setText(_translate("MainWindow", "0"))
         self.limpar_Btt.setText(_translate("MainWindow", "AC"))
         self.backspace_Btt.setText(_translate("MainWindow", "<"))
@@ -403,8 +403,8 @@ class Ui_MainWindow(object):
         self.TwoBtt.setText(_translate("MainWindow", "2"))
         self.threeBtt.setText(_translate("MainWindow", "3"))
         self.mais_Btt.setText(_translate("MainWindow", "+"))
-        self.zero_Btt.setText(_translate("MainWindow", "+/-"))
-        self.mais_menosBtt.setText(_translate("MainWindow", "0"))
+        self.mais_menosBtt.setText(_translate("MainWindow", " "))
+        self.zero_Btt.setText(_translate("MainWindow", "0"))
         self.ponto_Btt.setText(_translate("MainWindow", "."))
         self.igual_Btt.setText(_translate("MainWindow", "="))
 
