@@ -63,7 +63,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.ui.outputLabel.setText(f'{answer:.2f}')
         except:
             self.ui.outputLabel.setText('ERRO')
-        
+
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
