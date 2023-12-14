@@ -16,5 +16,7 @@ git clone https://github.com/Fouragate/Calculadora-simples.git
 ## Usage
 Code Sample
 ```
-python3 main.py
+Run main.py on vscode
 ```
+
+![Alt text](calculator.jpg)
