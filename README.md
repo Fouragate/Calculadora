@@ -18,5 +18,3 @@ Code Sample
 ```
 Run main.py on vscode
 ```
-
-![Alt text](calculator.jpg)
